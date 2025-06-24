@@ -14,10 +14,27 @@
 <div class="container my-4">
 
     <!-- Header -->
-    <header class="p-4 text-center bg-success-subtle rounded mb-4">
-        <h1 class="fs-2 fw-bold">Up in the Treetops</h1>
-        <p class="text-secondary">A story from the Pacific Coast</p>
+    <header class="p-6 text-center text-white" style="
+  background-image: url('./images/fairy_forest.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+">
+        <!-- Dark overlay -->
+        <div style="
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4);
+  "></div>
+
+        <!-- Content on top -->
+        <div style="position: relative; z-index: 1;">
+            <h1 class="text-4xl fw-bold mb-1">Up in the Treetops</h1>
+            <p class="text-light">A story from the Pacific Coast</p>
+        </div>
     </header>
+
+
 
     <!-- Gallery -->
     <main>
