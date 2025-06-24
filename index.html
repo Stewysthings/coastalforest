@@ -20,19 +20,38 @@
   background-position: center;
   position: relative;
 ">
-        <!-- Dark overlay -->
         <div style="
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background: rgba(0,0,0,0.4);
   "></div>
 
-        <!-- Content on top -->
-        <div style="position: relative; z-index: 1;">
-            <h1 class="text-4xl fw-bold mb-1">Up in the Treetops</h1>
-            <p class="text-light">A story from the Pacific Coast</p>
+        <div style="
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    backdrop-filter: blur(2px); /* subtle glass effect */
+  ">
+            <h1 style="
+      background: linear-gradient(135deg, #b3ffab, #12fff7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    ">Up in the Treetops</h1>
+            <p style="
+      color: #f0f0f0;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+      font-size: 1rem;
+    ">A story from the Pacific Coast</p>
         </div>
     </header>
+
 
 
 
