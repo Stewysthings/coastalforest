@@ -1,0 +1,7 @@
+.photo-caption {
+    background: #fff url('./images/torn_paper_edge.jpg') repeat-x top;
+    padding: 1rem;
+    color: #333;
+    font-family: Georgia, serif;
+    text-align: center;
+}
